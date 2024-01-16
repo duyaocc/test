@@ -23,7 +23,7 @@ steps:
   # Docker Push
   - name: 'gcr.io/cloud-builders/docker'
     args: ['push', 
-           'us-central1-docker.pkg.dev/main-nuance-406602/my-docker-repo/myimage']
+           'us-central1-docker.pkg.dev/main-nuance-406602/quickstart-docker-repo/quickstart-myimage']
 
   # Entrypoint, timeout and environment variables
   - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
